@@ -1,0 +1,165 @@
+.orders-section {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.order-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary {
+    display: flex;
+    align-items: center;
+}
+
+.order-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.order-info h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.order-details {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.order-card:hover .order-details {
+    display: block;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-item {
+    padding: 10px 0;
+    border-top: 1px solid #eaeaea;
+}
+
+.order-item p {
+    margin: 5px 0;
+}
+.order-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.order-item {
+    margin-bottom: 15px;
+}
+
+.product-image1 {
+    width: 100px; /* Adjust width as needed */
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+h5, h6 {
+    color: #333;
+}
+/* Orders.css */
+.order-card {
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-item {
+    border-top: 1px solid #e3e3e3;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.order-item p {
+    margin: 5px 0;
+}
+
+.order-total {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+
+.card-title {
+    font-weight: 600;
+}
+
+.nav-link {
+    font-size: 1.2em;
+}
+
+
+
+.float-md-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+/* Order Summary Styles */
+h5 {
+    font-weight: 700;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+}
+.details-order{
+    margin-left: 20px;
+}
+.dateadr{
+    margin-left:20px;
+}

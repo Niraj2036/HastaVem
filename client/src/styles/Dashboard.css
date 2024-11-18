@@ -1,0 +1,82 @@
+/* Dashboard.css */
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    margin-top: 5px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 60px; /* Adjust this value as needed */
+    background-color: #f0f0f0; /* Default gray background color */
+  }
+  
+  .sidebar-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .heading_sidebar {
+    margin-left: 10px;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-menu-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu-item.active {
+    background-color: #e0e0e0;
+  }
+  
+  /* Content */
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  
+  .dashboard-section {
+    display: flex;
+    flex-direction: column; /* Display profile and orders sections in a column */
+    gap: 20px;
+  }
+  
+  .profile-section, .orders-section {
+    flex: 1;
+  }
+  
+  .profile-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .orders-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      width: 100%; /* Full width on small screens */
+      position: static; /* Remove fixed position */
+      padding-top: 0; /* Remove padding */
+      margin-bottom: 20px; /* Add space below the sidebar */
+    }
+  
+    .content {
+      margin-left: 0; /* Remove margin */
+    }
+  }
+  

@@ -1,0 +1,43 @@
+/* ShippingForm.css */
+.modal-header {
+    display: flex;
+    justify-content: space-between; /* Ensure title and close button are spaced apart */
+    align-items: center; /* Align them vertically in the center */
+    padding: 15px;
+}
+
+.modal-header .close {
+    font-size: 2rem; /* Increase close button size */
+    color: #aaa;
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin: 0;
+}
+
+.form-group label {
+    color: #555555; /* Initial label color */
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    pointer-events: none;
+    transition: all 0.2s ease-out;
+    background-color: #fff;
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+    top: -10px; /* Floating effect */
+    left: 10px;
+    font-size: 0.75rem;
+    color: blue; /* Change color to blue when floating */
+}
+
+/* Dropdown select styling */
+.custom-select {
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+}
+.shipingaddr{
+    margin-bottom: 10px;
+}
